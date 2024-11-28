@@ -10,6 +10,8 @@ import ContactUs from './Pages/Contact/contact';
 import Footer from './Pages/Home/footer';
 import Sell from './Pages/Sell/sell';
 import TourRequest from './Pages/Listing/RequestAtour';
+import ScrollToTop from './Pages/SCroll';
+import BackToPreviousPage from './Pages/GoBack';
 
 const App: React.FC = () => {
   return (
@@ -28,6 +30,8 @@ const App: React.FC = () => {
             <Route path="/tour-request/:id" element={<TourRequest />} />
           </Routes>
         </main>
+        <ScrollToTop/>
+        <BackToPreviousPage/>
         <Footer/>
       </div>
     </Router>

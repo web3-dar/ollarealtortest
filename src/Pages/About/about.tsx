@@ -17,7 +17,8 @@ const AboutUs: React.FC = () => {
           <h3 className="mt-6 text-2xl font-semibold text-gray-800">Olatoye Olalekan</h3>
           <p className="mt-2 text-gray-500">Founder & CEO</p>
           <p className="mt-4 text-gray-600">
-            With over 10 years of experience in the real estate industry, John is dedicated to helping clients achieve their real estate goals.
+           <span className='font-semibold text-[#c55ea3]'>Olla Realtor LTD </span> is a real estate Development and listings Agency with presence in 4 continents including Africa, Europe, Middle East and America.
+          Founded by OlaitanOlatoyeOlalekan, a Nigerian businessman, Philanthropist and real estate entrepreneur. In 2019, he established his company built on a business model that is client-focused, incorporating great building techniques, fresh designs and forward-thinking IT innovations. Out of this was born the three divisions including Construction & Development, Home Design, and Real Estate.
           </p>
         </div>
 
