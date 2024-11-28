@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { products, Product } from '../products'; // Adjust the path to your `products.ts` file
 import { FaBed, FaBath, FaRulerCombined, FaCalendarAlt, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaWhatsapp, FaLinkedin, FaInstagram, FaTwitter } from 'react-icons/fa';
-import avatar from '../../assets/ceo.webp'
+import avatar from '../../assets/ceo.jpg'
 
 const PropertyDetails: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -156,7 +156,7 @@ const PropertyDetails: React.FC = () => {
                 {/* Email */}
                 <p className="text-lg flex items-center">
                   <div className="mr-3 text-[#c65da2]"><FaEnvelope /></div>
-                  <span className="text-black font-semibold text-gray-500">agent@example.com</span>
+                  <span className="text-black font-semibold text-gray-500">ceoollarealtoor@yahoo.com</span>
                 </p>
               </div>
             </div>
@@ -200,9 +200,9 @@ const PropertyDetails: React.FC = () => {
       </div>
 
       {/* Sticky Buttons */}
-      <div className="fixed bottom-0 left-0 right-0 p-4 bg-transparent shadow-lg z-50">
+      <div className="fixed bottom-0 left-0 right-0 p-4 bg-white shadow-lg z-50">
         <div className="flex justify-center gap-6">
-        <Link to="/contact"> <button className="bg-[#c65da2] text-white px-8 py-3 rounded-lg text-sm hover:bg-[#a14a8b] transition">
+        <Link to={`/tour-request/${product.id}`}> <button className="bg-[#c65da2] text-white px-8 py-3 rounded-lg text-sm hover:bg-[#a14a8b] transition">
             Request a Tour
           </button>
           </Link>

@@ -2,7 +2,7 @@ import React from 'react';
 import { FaPhoneAlt, FaEnvelope, FaLinkedinIn, FaInstagram } from 'react-icons/fa';  // Import icons from react-icons
 
 // Assuming the image is available
-import ceoImage from '../../assets/ceo.webp';  // Replace with the actual path to the image
+import ceoImage from '../../assets/ceo.jpg';  // Replace with the actual path to the image
 
 const AboutCEO: React.FC = () => {
   return (
@@ -28,16 +28,16 @@ const AboutCEO: React.FC = () => {
           
           {/* Social Icons Section */}
           <div className="flex justify-center md:justify-start gap-6 mb-6">
-            <a href="mailto:riezel@example.com" className="text-[#000000] hover:text-[#c65da2]">
+            <a href="mailto:ceoollarealtoor@yahoo.com" className="text-[#000000] hover:text-[#c65da2]">
               <FaEnvelope size={24} />
             </a>
-            <a href="tel:+123456789" className="text-[#000000] hover:text-[#c65da2]">
+            <a href="tel:+2348165920748" className="text-[#000000] hover:text-[#c65da2]">
               <FaPhoneAlt size={24} />
             </a>
-            <a href="https://www.linkedin.com/in/riezelbaker" target="_blank" rel="noopener noreferrer" className="text-[#000000] hover:text-[#c65da2]">
+            <a href="https://ng.linkedin.com/in/olaitan-olatoye-0204261b4" target="_blank" rel="noopener noreferrer" className="text-[#000000] hover:text-[#c65da2]">
               <FaLinkedinIn size={24} />
             </a>
-            <a href="https://www.instagram.com/riezelbaker" target="_blank" rel="noopener noreferrer" className="text-[#000000] hover:text-[#c65da2]">
+            <a href="https://www.instagram.com/ollarealtor_ltd/" target="_blank" rel="noopener noreferrer" className="text-[#000000] hover:text-[#c65da2]">
               <FaInstagram size={24} />
             </a>
           </div>

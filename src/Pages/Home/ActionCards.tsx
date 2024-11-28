@@ -14,31 +14,31 @@ const ActionCards: React.FC = () => {
         <div className="block sm:hidden">
           <div className="flex justify-between space-x-4">
             <Link
-              to="/buy"
+              to="/listing"
               className="group relative rounded-lg overflow-hidden w-4/5 transition-transform duration-300 hover:scale-105"
             >
               <div
                 className="w-full h-64 bg-cover bg-center group-hover:opacity-60 transition-opacity duration-300"
                 style={{ backgroundImage: `url(${img1})` }}
               ></div>
-              <div className="absolute inset-0 flex items-center justify-center text-white text-4xl font-bold">
+              <div className="absolute inset-0 flex items-center justify-center text-gray-700 text-xl font-bold">
                 <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  BUY
+                 Buy
                 </span>
               </div>
             </Link>
 
             <Link
-              to="/rent"
+              to="/listing"
               className="group relative rounded-lg overflow-hidden w-4/5 transition-transform duration-300 hover:scale-105"
             >
               <div
                 className="w-full h-64 bg-cover bg-center group-hover:opacity-60 transition-opacity duration-300"
                 style={{ backgroundImage: `url(${img2})` }}
               ></div>
-              <div className="absolute inset-0 flex items-center justify-center text-white text-4xl font-bold">
+              <div className="absolute inset-0 flex items-center justify-center text-gray-700 text-xl font-bold">
                 <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  RENT
+                  Listing
                 </span>
               </div>
             </Link>
@@ -51,9 +51,9 @@ const ActionCards: React.FC = () => {
                 className="w-full h-64 bg-cover bg-center group-hover:opacity-60 transition-opacity duration-300"
                 style={{ backgroundImage: `url(${img3})` }}
               ></div>
-              <div className="absolute inset-0 flex items-center justify-center text-white text-4xl font-bold">
+              <div className="absolute inset-0 flex items-center justify-center text-gray-700 text-xl font-bold">
                 <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  SELL
+                  Sell
                 </span>
               </div>
             </Link>
@@ -64,7 +64,7 @@ const ActionCards: React.FC = () => {
         <div className=" w-[90%] m-auto  hidden sm:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {/* Buy Card */}
           <Link
-            to="/buy"
+            to="/listing"
             className="group relative rounded-lg overflow-hidden transform transition-transform duration-500 sm:w-64 md:w-full hover:scale-105"
           >
             <div
@@ -80,7 +80,7 @@ const ActionCards: React.FC = () => {
 
           {/* Rent Card (Middle Card - bigger than the others) */}
           <Link
-            to="/rent"
+            to="/listing"
             className="group relative  overflow-hidden transform transition-transform duration-500 sm:w-72 md:w-full hover:scale-105"
           >
             <div
@@ -89,7 +89,7 @@ const ActionCards: React.FC = () => {
             ></div>
             <div className="absolute inset-0 flex items-center justify-center text-white text-4xl font-bold">
               <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                RENT
+                Listing
               </span>
             </div>
           </Link>

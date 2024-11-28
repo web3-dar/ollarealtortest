@@ -8,6 +8,8 @@ import LikedProperties from './Pages/Listing/LikedProperties';
 import AboutUs from './Pages/About/about';
 import ContactUs from './Pages/Contact/contact';
 import Footer from './Pages/Home/footer';
+import Sell from './Pages/Sell/sell';
+import TourRequest from './Pages/Listing/RequestAtour';
 
 const App: React.FC = () => {
   return (
@@ -20,8 +22,10 @@ const App: React.FC = () => {
             <Route path="/listing" element={<Listing />} />
             <Route path="/saved" element={<LikedProperties />} />
             <Route path="/about" element={<AboutUs />} />
+            <Route path="/sell" element={<Sell />} />
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/property/:id" element={<PropertyDetails />} />
+            <Route path="/tour-request/:id" element={<TourRequest />} />
           </Routes>
         </main>
         <Footer/>

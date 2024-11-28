@@ -104,19 +104,10 @@ const HeroSection: React.FC = () => {
           </motion.p>
 
           {/* Small Screen Button */}
-          <div className="sm:hidden">
-            <motion.button
-              onClick={() => setShowSearch(true)}
-              className="bg-transparent border-2 border-[#ccc] text-white px-6 py-2 rounded-md hover:bg-[#fff] hover:border-[#000] hover:text-[#c55ea3] transition duration-300 w-[300px]"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-             FIND YOUR DREAM HOME
-            </motion.button>
-          </div>
+   
           <Link to="/listing">
-          <button className='bg-transparent m-6 border-2 border-[#ccc] text-white px-6 py-2 rounded-md hover:bg-[#fff] hover:border-[#000] hover:text-[#c55ea3] transition duration-300 w-[300px]'>
-            Check Out Listing
+          <button className='bg-transparent mb-2 border-2 border-[#ccc] text-white px-6 py-2 rounded-md hover:bg-[#000] hover:border-[#fff] hover:text-[#c55ea3] transition duration-300 w-[300px]'>
+            FIND YOUR DREAM HOME
           </button>
           </Link>
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../assets/ceo.webp'
+import img from '../../assets/ceo_zoom.jpg'
 import { Link } from 'react-router-dom';
 const AboutUs: React.FC = () => {
   return (
@@ -21,23 +21,7 @@ const AboutUs: React.FC = () => {
           </p>
         </div>
 
-        <div className="text-center">
-          <img src={img} alt="Team Member 2" className="mx-auto rounded-full h-40 w-40 object-cover" />
-          <h3 className="mt-6 text-2xl font-semibold text-gray-800">Jane Smith</h3>
-          <p className="mt-2 text-gray-500">Senior Real Estate Agent</p>
-          <p className="mt-4 text-gray-600">
-            Jane specializes in residential properties and is known for her attention to detail and commitment to clients' needs.
-          </p>
-        </div>
-
-        <div className="text-center">
-          <img src={img} alt="Team Member 3" className="mx-auto rounded-full h-40 w-40 object-cover" />
-          <h3 className="mt-6 text-2xl font-semibold text-gray-800">Michael Johnson</h3>
-          <p className="mt-2 text-gray-500">Property Consultant</p>
-          <p className="mt-4 text-gray-600">
-            Michael brings a wealth of knowledge in property investments and helps clients make informed decisions with ease.
-          </p>
-        </div>
+       
       </div>
 
       <div className="mt-16 bg-white py-12 px-8 sm:px-16">
