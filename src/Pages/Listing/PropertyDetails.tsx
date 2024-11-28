@@ -202,12 +202,16 @@ const PropertyDetails: React.FC = () => {
       {/* Sticky Buttons */}
       <div className="fixed bottom-0 left-0 right-0 p-4 bg-transparent shadow-lg z-50">
         <div className="flex justify-center gap-6">
-          <button className="bg-[#c65da2] text-white px-8 py-3 rounded-lg text-sm hover:bg-[#a14a8b] transition">
+        <Link to="/contact"> <button className="bg-[#c65da2] text-white px-8 py-3 rounded-lg text-sm hover:bg-[#a14a8b] transition">
             Request a Tour
           </button>
+          </Link>
+
+          <Link to="/contact">
           <button className="bg-black text-white px-8 py-3 rounded-lg hover:bg-gray-800 text-sm transition">
             Contact Agent
           </button>
+          </Link>
         </div>
       </div>
 

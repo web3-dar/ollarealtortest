@@ -5,6 +5,9 @@ import Header from './Pages/Home/header';
 import Listing from './Pages/Listing/Listing';
 import PropertyDetails from './Pages/Listing/PropertyDetails';
 import LikedProperties from './Pages/Listing/LikedProperties';
+import AboutUs from './Pages/About/about';
+import ContactUs from './Pages/Contact/contact';
+import Footer from './Pages/Home/footer';
 
 const App: React.FC = () => {
   return (
@@ -16,9 +19,12 @@ const App: React.FC = () => {
             <Route path="/" element={<Home />} />
             <Route path="/listing" element={<Listing />} />
             <Route path="/saved" element={<LikedProperties />} />
+            <Route path="/about" element={<AboutUs />} />
+            <Route path="/contact" element={<ContactUs />} />
             <Route path="/property/:id" element={<PropertyDetails />} />
           </Routes>
         </main>
+        <Footer/>
       </div>
     </Router>
   );

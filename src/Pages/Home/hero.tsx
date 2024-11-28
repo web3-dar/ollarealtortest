@@ -6,6 +6,7 @@ import banner4 from '../../assets/banner_4.jpg';
 import { Product } from '../products'; // Ensure this import is correct.
 import { products } from '../products'; 
 import { motion } from 'framer-motion'; // Importing framer-motion for button animation
+import { Link } from 'react-router-dom';
 
 const HeroSection: React.FC = () => {
   const images = [banner1, banner2, banner3, banner4];
@@ -113,6 +114,11 @@ const HeroSection: React.FC = () => {
              FIND YOUR DREAM HOME
             </motion.button>
           </div>
+          <Link to="/listing">
+          <button className='bg-transparent m-6 border-2 border-[#ccc] text-white px-6 py-2 rounded-md hover:bg-[#fff] hover:border-[#000] hover:text-[#c55ea3] transition duration-300 w-[300px]'>
+            Check Out Listing
+          </button>
+          </Link>
 
           {/* Search Form (Visible on large screens, popup on small screens) */}
           <div className="hidden sm:flex wrap space-x-4 bg-white p-4 rounded-lg shadow-lg max-w-4xl w-full">

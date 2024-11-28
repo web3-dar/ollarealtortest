@@ -52,8 +52,7 @@ tollg_1, tollg_2,tollg_3 , tollg_4,tollg_5,tollg_6,tollg_7,tollg_8
       builtYear: 2020,
       features: "",
       images: [
-        "https://via.placeholder.com/400x300/ff7b7b/333333?text=House+2+Image+1",
-        "https://via.placeholder.com/400x300/7bff7b/333333?text=House+2+Image+2",
+        tollg_1, tollg_2,tollg_3 , tollg_4,tollg_5,tollg_6,tollg_7,tollg_8
       ],
       location: "Miami Beach, FL, USA",
       
@@ -68,9 +67,8 @@ tollg_1, tollg_2,tollg_3 , tollg_4,tollg_5,tollg_6,tollg_7,tollg_8
       builtYear: 2010,
       features: "Balconylose to Publ",
       images: [
-        "https://via.placeholder.com/400x300/ff7b7b/333333?text=House+3+Image+1",
-        "https://via.placeholder.com/400x300/7bff7b/333333?text=House+3+Image+2",
-      ],
+        tollg_1, tollg_2,tollg_3 , tollg_4,tollg_5,tollg_6,tollg_7,tollg_8
+ ],
       location: "New York City, NY, USA",
       
     },
@@ -85,9 +83,8 @@ tollg_1, tollg_2,tollg_3 , tollg_4,tollg_5,tollg_6,tollg_7,tollg_8
       builtYear: 2010,
       features: "Balconylose to Publ",
       images: [
-        "https://via.placeholder.com/400x300/ff7b7b/333333?text=House+3+Image+1",
-        "https://via.placeholder.com/400x300/7bff7b/333333?text=House+3+Image+2",
-      ],
+        tollg_1, tollg_2,tollg_3 , tollg_4,tollg_5,tollg_6,tollg_7,tollg_8
+  ],
       location: "New York City, NY, USA",
       
     },

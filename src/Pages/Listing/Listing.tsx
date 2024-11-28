@@ -90,11 +90,11 @@ const ListingPage = () => {
       </div>
 
       {/* Properties List */}
-      <div className="flex flex-wrap gap-4">
+      <div className=" flex flex-wrap gap-4">
         {filteredProducts.map((product) => (
           <div
             key={product.id}
-            className=" p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-300"
+            className="  w-[100%] p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-300"
           >
             <div className="relative">
               <img
