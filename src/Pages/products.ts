@@ -160,6 +160,81 @@ import freends_10 from '../assets/products/freends_10.jpg';
 
 
 
+import phasewee_1 from '../assets/products/phasewee_1.jpg';
+import phasewee_2 from '../assets/products/phasewee_2.jpg';
+import phasewee_3 from '../assets/products/phasewee_3.jpg';
+import phasewee_4 from '../assets/products/phasewee_4.jpg';
+import phasewee_5 from '../assets/products/phasewee_5.jpg';
+import phasewee_6 from '../assets/products/phasewee_6.jpg';
+import phasewee_7 from '../assets/products/phasewee_7.jpg';
+import phasewee_8 from '../assets/products/phasewee_8.jpg';
+import phasewee_9 from '../assets/products/phasewee_9.jpg';
+
+
+
+
+import viiiee_1 from '../assets/products/viiiee_1.jpg';
+import viiiee_2 from '../assets/products/viiiee_2.jpg';
+import viiiee_3 from '../assets/products/viiiee_3.jpg';
+import viiiee_4 from '../assets/products/viiiee_4.jpg';
+import viiiee_5 from '../assets/products/viiiee_5.jpg';
+import viiiee_6 from '../assets/products/viiiee_6.jpg';
+import viiiee_7 from '../assets/products/viiiee_7.jpg';
+import viiiee_8 from '../assets/products/viiiee_8.jpg';
+
+
+import ishddj_1 from '../assets/products/ishddj_1.jpg';
+import ishddj_2 from '../assets/products/ishddj_2.jpg';
+import ishddj_3 from '../assets/products/ishddj_3.jpg';
+import ishddj_4 from '../assets/products/ishddj_4.jpg';
+import ishddj_5 from '../assets/products/ishddj_5.jpg';
+import ishddj_6 from '../assets/products/ishddj_6.jpg';
+import ishddj_7 from '../assets/products/ishddj_7.jpg';
+import ishddj_8 from '../assets/products/ishddj_8.jpg';
+import ishddj_9 from '../assets/products/ishddj_9.jpg';
+
+
+import ikatewerg_1 from '../assets/products/ikatewerg_1.jpg';
+import ikatewerg_2 from '../assets/products/ikatewerg_2.jpg';
+import ikatewerg_3 from '../assets/products/ikatewerg_3.jpg';
+import ikatewerg_4 from '../assets/products/ikatewerg_4.jpg';
+import ikatewerg_5 from '../assets/products/ikatewerg_5.jpg';
+import ikatewerg_6 from '../assets/products/ikatewerg_6.jpg';
+import ikatewerg_7 from '../assets/products/ikatewerg_7.jpg';
+import ikatewerg_8 from '../assets/products/ikatewerg_8.jpg';
+import ikatewerg_9 from '../assets/products/ikatewerg_9.jpg';
+
+
+import sooplmalei_1 from '../assets/products/sooplmalei_1.jpg';
+import sooplmalei_2 from '../assets/products/sooplmalei_2.jpg';
+import sooplmalei_3 from '../assets/products/sooplmalei_3.jpg';
+import sooplmalei_4 from '../assets/products/sooplmalei_4.jpg';
+import sooplmalei_5 from '../assets/products/sooplmalei_5.jpg';
+import sooplmalei_6 from '../assets/products/sooplmalei_6.jpg';
+import sooplmalei_7 from '../assets/products/sooplmalei_7.jpg';
+import sooplmalei_8 from '../assets/products/sooplmalei_8.jpg';
+
+import firmei_1 from '../assets/products/firmei_1.jpg';
+import firmei_2 from '../assets/products/firmei_2.jpg';
+import firmei_3 from '../assets/products/firmei_3.jpg';
+import firmei_4 from '../assets/products/firmei_4.jpg';
+import firmei_5 from '../assets/products/firmei_5.jpg';
+import firmei_6 from '../assets/products/firmei_6.jpg';
+import firmei_7 from '../assets/products/firmei_7.jpg';
+import firmei_8 from '../assets/products/firmei_8.jpg';
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
   // Sample products data
@@ -503,10 +578,174 @@ tollg_1, tollg_2,tollg_3 , tollg_4,tollg_5,tollg_6,tollg_7,tollg_8
 
 
 
+    {
+      id: 15,
+      title: ``,
+      price: 450000000,
+      bedrooms: 5,
+      bathrooms: 5,
+      sqm: 400,
+      builtYear: 2024,
+      features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
+      images: [
+        phasewee_1,
+  phasewee_2,
+  phasewee_3,
+  phasewee_4,
+  phasewee_5,
+  phasewee_6,
+  phasewee_7,
+  phasewee_8,
+  phasewee_9,
+        
+  ],
+      location: "Lekki Phase 1 Lekki Lagos",
+      
+    },
+
+
+
+
+    {
+      id: 16,
+      title: `Executive Custom Home for Sale in Victoria Island Lagos`,
+      price: 450000000,
+      bedrooms: 4,
+      bathrooms: 4,
+      sqm: 450,
+      builtYear: 2024,
+      features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
+      images: [
+        viiiee_1,
+        viiiee_2,
+        viiiee_3,
+        viiiee_4,
+        viiiee_5,
+        viiiee_6,
+        viiiee_7,
+        viiiee_8,
+        
+  ],
+      location: "Victoria Island Lagos",
+      
+    },
+
+
+
+
+    {
+      id: 17000,
+      title: `Executive Custom Home for Sale in Lekki Phase 1`,
+      price: 650000000,
+      bedrooms: 5,
+      bathrooms: 5,
+      sqm: 400,
+      builtYear: 2024,
+      features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
+      images: [
+        sooplmalei_1,
+  sooplmalei_2,
+  sooplmalei_3,
+  sooplmalei_4,
+  sooplmalei_5,
+  sooplmalei_6,
+  sooplmalei_7,
+  sooplmalei_8,
+        
+  ],
+      location: "Lekki Phase 1",
+      
+    },
+
+
+
+
+    {
+      id: 180000,
+      title: `Executive Custom Home for Sale in Ikate`,
+      price: 600000000,
+      bedrooms: 4,
+      bathrooms: 4,
+      sqm: 400,
+      builtYear: 2024,
+      features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
+      images: [
+        ikatewerg_1,
+  ikatewerg_2,
+  ikatewerg_3,
+  ikatewerg_4,
+  ikatewerg_5,
+  ikatewerg_6,
+  ikatewerg_7,
+  ikatewerg_8,
+  ikatewerg_9,
+        
+  ],
+      location: "Ikate",
+      
+    },
+
+
+
+
+    {
+      id: 17,
+      title: `Executive Custom Home for Sale in Ikota Lagos`,
+      price: 230000000,
+      bedrooms: 5,
+      bathrooms: 5,
+      sqm: 345,
+      builtYear: 2024,
+      features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
+      images: [
+        ishddj_1,
+  ishddj_2,
+  ishddj_3,
+  ishddj_4,
+  ishddj_5,
+  ishddj_6,
+  ishddj_7,
+  ishddj_8,
+  ishddj_9,
+        
+  ],
+      location: "Ikota Lagos",
+      
+    },
+
+
+
+
+    {
+      id: 18,
+      title: `Executive Custom Home for Sale in Ikate Lekki`,
+      price: 600000000,
+      bedrooms: 4,
+      bathrooms: 4,
+      sqm: 400,
+      builtYear: 2024,
+      features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
+      images: [
+        firmei_1,
+  firmei_2,
+  firmei_3,
+  firmei_4,
+  firmei_5,
+  firmei_6,
+  firmei_7,
+  firmei_8,
+  ],
+      location: "Ikate Lekki",
+      
+    },
+
+
+
+
   //   {
-  //     id: 10,
-  //     title: ``,
-  //     price: 350000,
+  //     id: 19,
+  //     title: `Executive Custom Home for Sale in`,
+  //     price: 000000,
   //     bedrooms: 2,
   //     bathrooms: 1,
   //     sqm: 90,
@@ -523,9 +762,9 @@ tollg_1, tollg_2,tollg_3 , tollg_4,tollg_5,tollg_6,tollg_7,tollg_8
 
 
   //   {
-  //     id: 10,
-  //     title: ``,
-  //     price: 350000,
+  //     id: 20,
+  //     title: `Executive Custom Home for Sale in`,
+  //     price: 000000,
   //     bedrooms: 2,
   //     bathrooms: 1,
   //     sqm: 90,
@@ -542,9 +781,9 @@ tollg_1, tollg_2,tollg_3 , tollg_4,tollg_5,tollg_6,tollg_7,tollg_8
 
 
   //   {
-  //     id: 10,
-  //     title: ``,
-  //     price: 350000,
+  //     id: 21,
+  //     title: `Executive Custom Home for Sale in`,
+  //     price: 000000,
   //     bedrooms: 2,
   //     bathrooms: 1,
   //     sqm: 90,
@@ -561,9 +800,9 @@ tollg_1, tollg_2,tollg_3 , tollg_4,tollg_5,tollg_6,tollg_7,tollg_8
 
 
   //   {
-  //     id: 10,
-  //     title: ``,
-  //     price: 350000,
+  //     id: 22,
+  //     title: `Executive Custom Home for Sale in`,
+  //     price: 00000,
   //     bedrooms: 2,
   //     bathrooms: 1,
   //     sqm: 90,
@@ -580,9 +819,9 @@ tollg_1, tollg_2,tollg_3 , tollg_4,tollg_5,tollg_6,tollg_7,tollg_8
 
 
   //   {
-  //     id: 10,
-  //     title: ``,
-  //     price: 350000,
+  //     id: 23,
+  //     title: `Executive Custom Home for Sale in`,
+  //     price: 000000,
   //     bedrooms: 2,
   //     bathrooms: 1,
   //     sqm: 90,
@@ -599,9 +838,9 @@ tollg_1, tollg_2,tollg_3 , tollg_4,tollg_5,tollg_6,tollg_7,tollg_8
 
 
   //   {
-  //     id: 10,
-  //     title: ``,
-  //     price: 350000,
+  //     id: 24,
+  //     title: `Executive Custom Home for Sale in`,
+  //     price: 000000,
   //     bedrooms: 2,
   //     bathrooms: 1,
   //     sqm: 90,
@@ -618,9 +857,9 @@ tollg_1, tollg_2,tollg_3 , tollg_4,tollg_5,tollg_6,tollg_7,tollg_8
 
 
   //   {
-  //     id: 10,
-  //     title: ``,
-  //     price: 350000,
+  //     id: 25,
+  //     title: `Executive Custom Home for Sale in`,
+  //     price: 000000,
   //     bedrooms: 2,
   //     bathrooms: 1,
   //     sqm: 90,
@@ -637,9 +876,9 @@ tollg_1, tollg_2,tollg_3 , tollg_4,tollg_5,tollg_6,tollg_7,tollg_8
 
 
   //   {
-  //     id: 10,
-  //     title: ``,
-  //     price: 350000,
+  //     id: 26,
+  //     title: `Executive Custom Home for Sale in`,
+  //     price: 000000,
   //     bedrooms: 2,
   //     bathrooms: 1,
   //     sqm: 90,
@@ -656,9 +895,9 @@ tollg_1, tollg_2,tollg_3 , tollg_4,tollg_5,tollg_6,tollg_7,tollg_8
 
 
   //   {
-  //     id: 10,
-  //     title: ``,
-  //     price: 350000,
+  //     id: 27,
+  //     title: `Executive Custom Home for Sale in`,
+  //     price: 000000,
   //     bedrooms: 2,
   //     bathrooms: 1,
   //     sqm: 90,
@@ -675,9 +914,9 @@ tollg_1, tollg_2,tollg_3 , tollg_4,tollg_5,tollg_6,tollg_7,tollg_8
 
 
   //   {
-  //     id: 10,
-  //     title: ``,
-  //     price: 350000,
+  //     id: 28,
+  //     title: `Executive Custom Home for Sale in`,
+  //     price: 000000,
   //     bedrooms: 2,
   //     bathrooms: 1,
   //     sqm: 90,
@@ -694,9 +933,9 @@ tollg_1, tollg_2,tollg_3 , tollg_4,tollg_5,tollg_6,tollg_7,tollg_8
 
 
   //   {
-  //     id: 10,
-  //     title: ``,
-  //     price: 350000,
+  //     id: 29,
+  //     title: `Executive Custom Home for Sale in`,
+  //     price: 000000,
   //     bedrooms: 2,
   //     bathrooms: 1,
   //     sqm: 90,
@@ -713,9 +952,9 @@ tollg_1, tollg_2,tollg_3 , tollg_4,tollg_5,tollg_6,tollg_7,tollg_8
 
 
   //   {
-  //     id: 10,
-  //     title: ``,
-  //     price: 350000,
+  //     id: 30,
+  //     title: `Executive Custom Home for Sale in`,
+  //     price: 000000,
   //     bedrooms: 2,
   //     bathrooms: 1,
   //     sqm: 90,
@@ -732,9 +971,9 @@ tollg_1, tollg_2,tollg_3 , tollg_4,tollg_5,tollg_6,tollg_7,tollg_8
 
 
   //   {
-  //     id: 10,
-  //     title: ``,
-  //     price: 350000,
+  //     id: 31,
+  //     title: Executive Custom Home for Sale in`,
+  //     price: 000000,
   //     bedrooms: 2,
   //     bathrooms: 1,
   //     sqm: 90,
@@ -751,123 +990,9 @@ tollg_1, tollg_2,tollg_3 , tollg_4,tollg_5,tollg_6,tollg_7,tollg_8
 
 
   //   {
-  //     id: 10,
-  //     title: ``,
-  //     price: 350000,
-  //     bedrooms: 2,
-  //     bathrooms: 1,
-  //     sqm: 90,
-  //     builtYear: 2010,
-  //     features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
-  //     images: [
-        
-  // ],
-  //     location: "",
-      
-  //   },
-
-
-
-
-  //   {
-  //     id: 10,
-  //     title: ``,
-  //     price: 350000,
-  //     bedrooms: 2,
-  //     bathrooms: 1,
-  //     sqm: 90,
-  //     builtYear: 2010,
-  //     features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
-  //     images: [
-        
-  // ],
-  //     location: "",
-      
-  //   },
-
-
-
-
-  //   {
-  //     id: 10,
-  //     title: ``,
-  //     price: 350000,
-  //     bedrooms: 2,
-  //     bathrooms: 1,
-  //     sqm: 90,
-  //     builtYear: 2010,
-  //     features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
-  //     images: [
-        
-  // ],
-  //     location: "",
-      
-  //   },
-
-
-
-
-  //   {
-  //     id: 10,
-  //     title: ``,
-  //     price: 350000,
-  //     bedrooms: 2,
-  //     bathrooms: 1,
-  //     sqm: 90,
-  //     builtYear: 2010,
-  //     features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
-  //     images: [
-        
-  // ],
-  //     location: "",
-      
-  //   },
-
-
-
-
-  //   {
-  //     id: 10,
-  //     title: ``,
-  //     price: 350000,
-  //     bedrooms: 2,
-  //     bathrooms: 1,
-  //     sqm: 90,
-  //     builtYear: 2010,
-  //     features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
-  //     images: [
-        
-  // ],
-  //     location: "",
-      
-  //   },
-
-
-
-
-  //   {
-  //     id: 10,
-  //     title: ``,
-  //     price: 350000,
-  //     bedrooms: 2,
-  //     bathrooms: 1,
-  //     sqm: 90,
-  //     builtYear: 2010,
-  //     features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
-  //     images: [
-        
-  // ],
-  //     location: "",
-      
-  //   },
-
-
-
-
-  //   {
-  //     id: 10,
-  //     title: ``,
-  //     price: 350000,
+  //     id: 32,
+  //     title: `Executive Custom Home for Sale in`,
+  //     price: 000000,
   //     bedrooms: 2,
   //     bathrooms: 1,
   //     sqm: 90,
