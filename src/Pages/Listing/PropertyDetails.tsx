@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { products, Product } from '../products'; // Adjust the path to your `products.ts` file
 import { FaBed, FaBath, FaRulerCombined, FaCalendarAlt, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaWhatsapp, FaLinkedin, FaInstagram, FaTwitter } from 'react-icons/fa';
-import avatar from '../../assets/ceo.jpg'
+import avatar from '../../assets/ceo_zoom.jpg'
 
 const PropertyDetails: React.FC = () => {
   const { id } = useParams<{ id: string }>();

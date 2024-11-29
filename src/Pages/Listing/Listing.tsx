@@ -1,4 +1,4 @@
-import  { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { products } from '../products'; // Assuming your product data file is here
 import { FaHeart } from 'react-icons/fa';
@@ -17,6 +17,8 @@ const ListingPage = () => {
   });
 
   const [filteredProducts, setFilteredProducts] = useState(products);
+  const [currentPage, setCurrentPage] = useState(1);
+  const productsPerPage = 10;
 
   useEffect(() => {
     // Filter products based on search criteria
@@ -40,6 +42,22 @@ const ListingPage = () => {
     }
     setLikedProperties(updatedLikes);
     localStorage.setItem('likedProperties', JSON.stringify(updatedLikes));
+  };
+
+  // Get current products for the current page
+  const indexOfLastProduct = currentPage * productsPerPage;
+  const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
+  const currentProducts = filteredProducts.slice(indexOfFirstProduct, indexOfLastProduct);
+
+  // Pagination logic
+  const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
+
+  const handleNextPage = () => {
+    if (currentPage < totalPages) setCurrentPage(currentPage + 1);
+  };
+
+  const handlePrevPage = () => {
+    if (currentPage > 1) setCurrentPage(currentPage - 1);
   };
 
   return (
@@ -90,11 +108,11 @@ const ListingPage = () => {
       </div>
 
       {/* Properties List */}
-      <div className=" flex flex-wrap gap-4">
-        {filteredProducts.map((product) => (
+      <div className="flex flex-wrap gap-4">
+        {currentProducts.map((product) => (
           <div
             key={product.id}
-            className="  w-[100%] p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-300"
+            className="w-full p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-300"
           >
             <div className="relative">
               <img
@@ -106,18 +124,25 @@ const ListingPage = () => {
                 Active
               </div>
               <button
-                className="absolute top-2 right-2 bg-gray-400 border rounded-lg p-2  hover:bg-gray-200"
+                className="absolute top-2 right-2 bg-gray-400 border rounded-lg p-2 hover:bg-gray-200"
                 onClick={() => toggleLike(product.id)}
               >
-                {likedProperties.includes(product.id) ? <div className='text-red-600'><FaHeart/></div> : <div ><FaHeart/></div>}
+                {likedProperties.includes(product.id) ? (
+                  <div className="text-red-600">
+                    <FaHeart />
+                  </div>
+                ) : (
+                  <div>
+                    <FaHeart />
+                  </div>
+                )}
               </button>
             </div>
             <div className="p-2 ">
               <p className="font-semibold text-lg mb-1">₦{product.price.toLocaleString()}</p>
               <h2 className="text-sm text-gray-600 font-semibold mb-1">{product.title}</h2>
               <p className="text-sm text-gray-600 mb-1">{product.location}</p>
-              
-              <div className="flex  gap-1  text-sm font-bold text-gray-500 mt-2">
+              <div className="flex gap-1 text-sm font-bold text-gray-500 mt-2">
                 <span>{product.bedrooms} Beds</span>
                 <span>{product.bathrooms} Baths</span>
                 <span>{product.sqm} sqm</span>
@@ -131,6 +156,25 @@ const ListingPage = () => {
             </div>
           </div>
         ))}
+      </div>
+
+      {/* Pagination Controls */}
+      <div className="flex justify-center mt-4">
+        <button
+          onClick={handlePrevPage}
+          className="px-4 py-2 bg-gray-300 rounded-l-md hover:bg-gray-400 disabled:opacity-50"
+          disabled={currentPage === 1}
+        >
+          Prev
+        </button>
+        <span className="px-4 py-2 text-lg">{currentPage} of {totalPages}</span>
+        <button
+          onClick={handleNextPage}
+          className="px-4 py-2 bg-gray-300 rounded-r-md hover:bg-gray-400 disabled:opacity-50"
+          disabled={currentPage === totalPages}
+        >
+          Next
+        </button>
       </div>
     </div>
   );

@@ -1,8 +1,7 @@
 import React from 'react';
-import { FaPhoneAlt, FaEnvelope, FaLinkedinIn, FaInstagram } from 'react-icons/fa';  // Import icons from react-icons
-
-// Assuming the image is available
-import ceoImage from '../../assets/ceo.jpg';  // Replace with the actual path to the image
+import { FaPhoneAlt, FaEnvelope, FaLinkedinIn, FaInstagram } from 'react-icons/fa';  
+import ceoImage from '../../assets/ceo.jpg'; 
+import { motion } from 'framer-motion';
 
 const AboutCEO: React.FC = () => {
   return (
@@ -21,10 +20,23 @@ const AboutCEO: React.FC = () => {
         <div className="md:w-1/2 text-center md:text-left flex flex-col justify-between h-full">
           <h2 className="text-3xl font-thin text-[#c65da2] mb-4">GET TO KNOW</h2>
           <h3 className="text-4xl font-serif text-gray-800 mb-4">Olatoye Olalekan</h3>
-          <p className="text-lg text-gray-600 mb-6">
-          Meet <span className='text-[#c65da2] font-semibold'>Olatoye Olalekan</span>, your trusted real estate expert with years of experience in the Nigerian property market. Passionate about helping clients find their perfect homes or investment opportunities, Olatoye provides personalized guidance every step of the way. His commitment to excellence ensures you make informed decisions with confidence.
 
-          </p>
+          <motion.p
+            className="text-lg text-gray-300 mb-8 px-2"
+            initial={{ opacity: 0, y: -30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.3 }}
+          >
+
+<p className="text-lg text-gray-600 mb-6">
+Meet <span className='text-[#c65da2] font-semibold'>Olatoye Olalekan</span>, your trusted real estate expert with years of experience in the Nigerian property market. Passionate about helping clients find their perfect homes or investment opportunities, Olatoye provides personalized guidance every step of the way. His commitment to excellence ensures you make informed decisions with confidence.  </p>
+           
+          </motion.p>
+
+
+         
+
+        
           
           {/* Social Icons Section */}
           <div className="flex justify-center md:justify-start gap-6 mb-6">
