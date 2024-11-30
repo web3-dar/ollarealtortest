@@ -30,7 +30,11 @@ const ListingPage = () => {
         (search.price === '' || product.price <= parseInt(search.price))
       );
     });
-    setFilteredProducts(filtered);
+
+    // Sort filtered products by id in descending order
+    const sortedFiltered = filtered.sort((a, b) => b.id - a.id);
+
+    setFilteredProducts(sortedFiltered);
   }, [search]);
 
   const toggleLike = (id: number) => {
@@ -167,7 +171,9 @@ const ListingPage = () => {
         >
           Prev
         </button>
-        <span className="px-4 py-2 text-lg">{currentPage} of {totalPages}</span>
+        <span className="px-4 py-2 text-lg">
+          {currentPage} of {totalPages}
+        </span>
         <button
           onClick={handleNextPage}
           className="px-4 py-2 bg-gray-300 rounded-r-md hover:bg-gray-400 disabled:opacity-50"

@@ -227,7 +227,30 @@ import firmei_8 from '../assets/products/firmei_8.jpg';
 
 
 
+import osapasapon_1 from '../assets/products/osapasapon_1.jpg';
+import osapasapon_2 from '../assets/products/osapasapon_2.jpg';
+import osapasapon_3 from '../assets/products/osapasapon_3.jpg';
+import osapasapon_4 from '../assets/products/osapasapon_4.jpg';
+import osapasapon_5 from '../assets/products/osapasapon_5.jpg';
+import osapasapon_6 from '../assets/products/osapasapon_6.jpg';
+import osapasapon_7 from '../assets/products/osapasapon_7.jpg';
+import osapasapon_8 from '../assets/products/osapasapon_8.jpg';
 
+
+
+
+import closeup_1 from '../assets/products/closeup_1.jpg';
+import closeup_2 from '../assets/products/closeup_2.jpg';
+import closeup_3 from '../assets/products/closeup_3.jpg';
+import closeup_4 from '../assets/products/closeup_4.jpg';
+import closeup_5 from '../assets/products/closeup_5.jpg';
+import closeup_6 from '../assets/products/closeup_6.jpg';
+
+
+import oforwe_1 from '../assets/products/oforwe_1.jpg';
+import oforwe_2 from '../assets/products/oforwe_2.jpg';
+import oforwe_3 from '../assets/products/oforwe_3.jpg';
+import oforwe_4 from '../assets/products/oforwe_4.jpg';
 
 
 
@@ -633,59 +656,6 @@ tollg_1, tollg_2,tollg_3 , tollg_4,tollg_5,tollg_6,tollg_7,tollg_8
 
 
 
-    {
-      id: 17000,
-      title: `Executive Custom Home for Sale in Lekki Phase 1`,
-      price: 650000000,
-      bedrooms: 5,
-      bathrooms: 5,
-      sqm: 400,
-      builtYear: 2024,
-      features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
-      images: [
-        sooplmalei_1,
-  sooplmalei_2,
-  sooplmalei_3,
-  sooplmalei_4,
-  sooplmalei_5,
-  sooplmalei_6,
-  sooplmalei_7,
-  sooplmalei_8,
-        
-  ],
-      location: "Lekki Phase 1",
-      
-    },
-
-
-
-
-    {
-      id: 180000,
-      title: `Executive Custom Home for Sale in Ikate`,
-      price: 600000000,
-      bedrooms: 4,
-      bathrooms: 4,
-      sqm: 400,
-      builtYear: 2024,
-      features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
-      images: [
-        ikatewerg_1,
-  ikatewerg_2,
-  ikatewerg_3,
-  ikatewerg_4,
-  ikatewerg_5,
-  ikatewerg_6,
-  ikatewerg_7,
-  ikatewerg_8,
-  ikatewerg_9,
-        
-  ],
-      location: "Ikate",
-      
-    },
-
-
 
 
     {
@@ -739,68 +709,145 @@ tollg_1, tollg_2,tollg_3 , tollg_4,tollg_5,tollg_6,tollg_7,tollg_8
       
     },
 
-
-
-
-  //   {
-  //     id: 19,
-  //     title: `Executive Custom Home for Sale in`,
-  //     price: 000000,
-  //     bedrooms: 2,
-  //     bathrooms: 1,
-  //     sqm: 90,
-  //     builtYear: 2010,
-  //     features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
-  //     images: [
+    {
+      id: 19,
+      title: `Executive Custom Home for Sale in Lekki Phase 1`,
+      price: 650000000,
+      bedrooms: 5,
+      bathrooms: 5,
+      sqm: 400,
+      builtYear: 2024,
+      features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
+      images: [
+        sooplmalei_1,
+  sooplmalei_2,
+  sooplmalei_3,
+  sooplmalei_4,
+  sooplmalei_5,
+  sooplmalei_6,
+  sooplmalei_7,
+  sooplmalei_8,
         
-  // ],
-  //     location: "",
+  ],
+      location: "Lekki Phase 1",
       
-  //   },
+    },
 
 
 
 
-  //   {
-  //     id: 20,
-  //     title: `Executive Custom Home for Sale in`,
-  //     price: 000000,
-  //     bedrooms: 2,
-  //     bathrooms: 1,
-  //     sqm: 90,
-  //     builtYear: 2010,
-  //     features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
-  //     images: [
+    {
+      id: 20,
+      title: `Executive Custom Home for Sale in Ikate`,
+      price: 600000000,
+      bedrooms: 4,
+      bathrooms: 4,
+      sqm: 400,
+      builtYear: 2024,
+      features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
+      images: [
+        ikatewerg_1,
+  ikatewerg_2,
+  ikatewerg_3,
+  ikatewerg_4,
+  ikatewerg_5,
+  ikatewerg_6,
+  ikatewerg_7,
+  ikatewerg_8,
+  ikatewerg_9,
         
-  // ],
-  //     location: "",
+  ],
+      location: "Ikate",
       
-  //   },
+    },
+    
 
 
 
 
-  //   {
-  //     id: 21,
-  //     title: `Executive Custom Home for Sale in`,
-  //     price: 000000,
-  //     bedrooms: 2,
-  //     bathrooms: 1,
-  //     sqm: 90,
-  //     builtYear: 2010,
-  //     features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
-  //     images: [
+    {
+      id: 21,
+      title: `Executive Custom Home for Sale in Osapa Lekki`,
+      price: 500000000,
+      bedrooms: 5,
+      bathrooms: 5,
+      sqm: 450,
+      builtYear: 2024,
+      features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
+      images: [
+        osapasapon_1,
+  osapasapon_2,
+  osapasapon_3,
+  osapasapon_4,
+  osapasapon_5,
+  osapasapon_6,
+  osapasapon_7,
+  osapasapon_8,
+  
         
-  // ],
-  //     location: "",
+  ],
+      location: "Osapa Lekki",
       
-  //   },
+    },
+
+
+
+
+    {
+      id: 22,
+      title: `Executive Custom Home for Sale in Ikate Lekki`,
+      price: 550000000,
+      bedrooms: 5,
+      bathrooms: 5,
+      sqm: 400,
+      builtYear: 2024,
+      features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
+      images: [
+        closeup_1,
+        closeup_2,
+        closeup_3,
+        closeup_4,
+        closeup_5,
+        closeup_6,
+        
+  ],
+      location: "Ikate Lekki",
+      
+    },
+
+
+
+
+    {
+      id: 23,
+      title: `Executive Custom Home for Sale in Osapa Lekki`,
+      price: 750000000,
+      bedrooms: 5,
+      bathrooms: 5,
+      sqm: 450,
+      builtYear: 2010,
+      features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
+      images: [
+        
+        oforwe_1,
+  oforwe_2,
+  oforwe_3,
+  oforwe_4,
+  ],
+      location: "Osapa Lekki",
+      
+    },
+
+
+
+  
+
 
 
 
 
   //   {
-  //     id: 22,
+  //     id: 24,
   //     title: `Executive Custom Home for Sale in`,
   //     price: 00000,
   //     bedrooms: 2,
@@ -818,195 +865,4 @@ tollg_1, tollg_2,tollg_3 , tollg_4,tollg_5,tollg_6,tollg_7,tollg_8
 
 
 
-  //   {
-  //     id: 23,
-  //     title: `Executive Custom Home for Sale in`,
-  //     price: 000000,
-  //     bedrooms: 2,
-  //     bathrooms: 1,
-  //     sqm: 90,
-  //     builtYear: 2010,
-  //     features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
-  //     images: [
-        
-  // ],
-  //     location: "",
-      
-  //   },
-
-
-
-
-  //   {
-  //     id: 24,
-  //     title: `Executive Custom Home for Sale in`,
-  //     price: 000000,
-  //     bedrooms: 2,
-  //     bathrooms: 1,
-  //     sqm: 90,
-  //     builtYear: 2010,
-  //     features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
-  //     images: [
-        
-  // ],
-  //     location: "",
-      
-  //   },
-
-
-
-
-  //   {
-  //     id: 25,
-  //     title: `Executive Custom Home for Sale in`,
-  //     price: 000000,
-  //     bedrooms: 2,
-  //     bathrooms: 1,
-  //     sqm: 90,
-  //     builtYear: 2010,
-  //     features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
-  //     images: [
-        
-  // ],
-  //     location: "",
-      
-  //   },
-
-
-
-
-  //   {
-  //     id: 26,
-  //     title: `Executive Custom Home for Sale in`,
-  //     price: 000000,
-  //     bedrooms: 2,
-  //     bathrooms: 1,
-  //     sqm: 90,
-  //     builtYear: 2010,
-  //     features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
-  //     images: [
-        
-  // ],
-  //     location: "",
-      
-  //   },
-
-
-
-
-  //   {
-  //     id: 27,
-  //     title: `Executive Custom Home for Sale in`,
-  //     price: 000000,
-  //     bedrooms: 2,
-  //     bathrooms: 1,
-  //     sqm: 90,
-  //     builtYear: 2010,
-  //     features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
-  //     images: [
-        
-  // ],
-  //     location: "",
-      
-  //   },
-
-
-
-
-  //   {
-  //     id: 28,
-  //     title: `Executive Custom Home for Sale in`,
-  //     price: 000000,
-  //     bedrooms: 2,
-  //     bathrooms: 1,
-  //     sqm: 90,
-  //     builtYear: 2010,
-  //     features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
-  //     images: [
-        
-  // ],
-  //     location: "",
-      
-  //   },
-
-
-
-
-  //   {
-  //     id: 29,
-  //     title: `Executive Custom Home for Sale in`,
-  //     price: 000000,
-  //     bedrooms: 2,
-  //     bathrooms: 1,
-  //     sqm: 90,
-  //     builtYear: 2010,
-  //     features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
-  //     images: [
-        
-  // ],
-  //     location: "",
-      
-  //   },
-
-
-
-
-  //   {
-  //     id: 30,
-  //     title: `Executive Custom Home for Sale in`,
-  //     price: 000000,
-  //     bedrooms: 2,
-  //     bathrooms: 1,
-  //     sqm: 90,
-  //     builtYear: 2010,
-  //     features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
-  //     images: [
-        
-  // ],
-  //     location: "",
-      
-  //   },
-
-
-
-
-  //   {
-  //     id: 31,
-  //     title: Executive Custom Home for Sale in`,
-  //     price: 000000,
-  //     bedrooms: 2,
-  //     bathrooms: 1,
-  //     sqm: 90,
-  //     builtYear: 2010,
-  //     features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
-  //     images: [
-        
-  // ],
-  //     location: "",
-      
-  //   },
-
-
-
-
-  //   {
-  //     id: 32,
-  //     title: `Executive Custom Home for Sale in`,
-  //     price: 000000,
-  //     bedrooms: 2,
-  //     bathrooms: 1,
-  //     sqm: 90,
-  //     builtYear: 2010,
-  //     features: `This property has a well designed and large masters bedroom, en-suite large rooms with wardrobes, well designed interior and exterior, inbuilt speakers, modern toilet wares, fitted kitchen with modern accessories, stamp, swimming pool, spacious compound with ample parking space, located in a serene and secure neighborhood`,
-  //     images: [
-        
-  // ],
-  //     location: "",
-      
-  //   },
-
-
-
-
-  ];
-  
+  ]
